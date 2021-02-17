@@ -12,10 +12,10 @@ FusionCharts.ready(function () {
         subcaption: "Click on the segments to Drill-down",
         showPlotBorder: "1",
         animation: "1",
-        paletteColors:
-          "D7D8E7, A88CCC, 77ECC8, 97FAA4, CFF69D, EED482, FFAE91, FE93B5, D98ACF, 7BCDE8, 94A8E9",
+        paletteColors: "D7D8E7, 11F1FB, FAAE03, EF3752,",
         animationDuration: "2",
         centerAngle: "360",
+        textOutline: "0",
       },
       data: [
         {
