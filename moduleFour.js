@@ -518,5 +518,5 @@ FusionCharts.ready(function () {
         },
       ],
     },
-  });
+  }).render();
 });

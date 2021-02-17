@@ -590,5 +590,5 @@ FusionCharts.ready(function () {
         },
       ],
     },
-  });
+  }).render();
 });
