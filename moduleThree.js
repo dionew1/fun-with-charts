@@ -1,5 +1,5 @@
 FusionCharts.ready(function () {
-  var topStores = new FusionCharts({
+  new FusionCharts({
     type: "sunburst",
     renderAt: "container-3",
     width: "900",
