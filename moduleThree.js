@@ -39,7 +39,7 @@ FusionCharts.ready(function () {
         {
           id: "HTTP",
           parent: "OOP/Ruby-M",
-          label: "HTTP Libraries(Faraday, Net::HTTP/URI, HTTParty",
+          label: "HTTP Libraries",
           value: "1",
         },
         {
@@ -69,31 +69,19 @@ FusionCharts.ready(function () {
         {
           id: "Open",
           parent: "APIs-M",
-          label: "Consume Open APIs",
-          value: "1",
-        },
-        {
-          id: "Auth",
-          parent: "APIs-M",
-          label: "Consume APIs with Authentication",
+          label: "Consume APIs with and without Auth",
           value: "1",
         },
         {
           id: "OAuth Access",
           parent: "APIs-M",
-          label: "OAuth to access API data",
-          value: "1",
-        },
-        {
-          id: "OAuth authentication",
-          parent: "APIs-M",
-          label: "OAuth for authentication of users",
+          label: "OAuth",
           value: "1",
         },
         {
           id: "OmniAuth",
           parent: "APIs-M",
-          label: "OmniAuth as OAuth Tool",
+          label: "OmniAuth",
           value: "1",
         },
         {
@@ -133,27 +121,15 @@ FusionCharts.ready(function () {
           value: "1",
         },
         {
-          id: "Nested Routes",
+          id: "Routes",
           parent: "Web-M",
-          label: "Nested Routes",
+          label: "Nested & Namespaced Routes",
           value: "1",
         },
         {
-          id: "Namespaced Routes",
+          id: "HTML/CSS",
           parent: "Web-M",
-          label: "Namespaced Routes",
-          value: "1",
-        },
-        {
-          id: "HTML",
-          parent: "Web-M",
-          label: "HTML",
-          value: "1",
-        },
-        {
-          id: "CSS",
-          parent: "Web-M",
-          label: "CSS",
+          label: "HTML & CSS",
           value: "1",
         },
         {
@@ -211,27 +187,15 @@ FusionCharts.ready(function () {
           value: "1",
         },
         {
-          id: "One-to-Many",
+          id: "Relationships",
           parent: "Database-M",
-          label: "One-to-Many",
-          value: "1",
-        },
-        {
-          id: "Many-to-Many",
-          parent: "Database-M",
-          label: "Many-to-Many",
+          label: "One-to-Many & Many-to-Many",
           value: "1",
         },
         {
           id: "Foreign Keys",
           parent: "Database-M",
-          label: "Foreign Keys",
-          value: "1",
-        },
-        {
-          id: "Primary Keys",
-          parent: "Database-M",
-          label: "Primary Keys",
+          label: "Foreign & Primary Keys",
           value: "1",
         },
         {
@@ -247,9 +211,9 @@ FusionCharts.ready(function () {
           value: "1",
         },
         {
-          id: "Where",
+          id: "Search",
           parent: "Database-M",
-          label: "Where Query",
+          label: "Where & Find Queries",
           value: "1",
         },
         {
@@ -268,12 +232,6 @@ FusionCharts.ready(function () {
           id: "Select",
           parent: "Database-M",
           label: "Select Query",
-          value: "1",
-        },
-        {
-          id: "Find",
-          parent: "Database-M",
-          label: "Find Query",
           value: "1",
         },
         {
