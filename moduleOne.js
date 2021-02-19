@@ -2,8 +2,8 @@ FusionCharts.ready(function () {
   new FusionCharts({
     type: "sunburst",
     renderAt: "container-1",
-    width: "900",
-    height: "650",
+    width: "580",
+    height: "580",
     dataFormat: "json",
     dataSource: {
       chart: {

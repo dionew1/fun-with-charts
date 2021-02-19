@@ -5,6 +5,7 @@
     <script type="text/javascript" src="https://cdn.fusioncharts.com/fusioncharts/latest/fusioncharts.js"></script>
     <script type="text/javascript"
       src="https://cdn.fusioncharts.com/fusioncharts/latest/themes/fusioncharts.theme.fusion.js"></script>
+    <script defer type="text/javascript" src="currentOne.js"></script>
     <script defer type="text/javascript" src="moduleOne.js"></script>
     <script defer type="text/javascript" src="moduleTwo.js"></script>
     <script defer type="text/javascript" src="moduleThree.js"></script>
@@ -18,11 +19,18 @@
         margin-top: 50px;
         margin-bottom: 20px;
       }
-      
-      .center {
+
+      .charts, .center {
         display: flex;
         justify-content: center;
       }
+      @media only screen and (max-width: 1200px) {
+        .charts, .center {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+      }   
     </style>
   </head>
   <body>
@@ -33,15 +41,24 @@
     </h2>
 
     <h3>Module 1</h3>
-    <div id="container-1" class="center"></div>
+    <div class="charts">
+      <div id="container-current-1" class="center"></div>
+      <div id="container-1" class="center"></div>
+    </div>
 
     <h3>Module 2</h3>
-    <div id="container-2" class="center"></div>
+    <div class="charts">
+      <div id="container-2" class="center"></div>
+    </div>
 
     <h3>Module 3</h3>
-    <div id="container-3" class="center"></div>
+    <div class="charts">
+      <div id="container-3" class="center"></div>
+    </div>
 
     <h3>Module 4</h3>
-    <div id="container-4" class="center"></div>
+    <div class="charts">
+      <div id="container-4" class="center"></div>
+    </div>
   </body>
 </html>
